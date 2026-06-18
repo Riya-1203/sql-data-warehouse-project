@@ -1,6 +1,6 @@
 /*
 DDL Script: Create Bronze Tables
-This script creates tables in the 'bronze' schema, dropping existing tables, if they already exist.
+This script creates tables in the 'bronze' schema, dropping existing tables if they already exist.
 */
 If object_id ('bronze.crm_cust_info', 'U') is not null
    Drop Table bronze.crm_cust_info;
